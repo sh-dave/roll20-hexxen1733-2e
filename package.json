@@ -1,0 +1,18 @@
+{
+  "name": "roll20-hexxen1733-v2",
+  "version": "0.1.0",
+  "description": "A Roll20 character sheet for the tabletop RPG HeXXen 1733 2nd Edition.",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run compile && npm run copy-css && npm run copy-static",
+    "copy-css": "cpy src/hexxen2.css dist --flat",
+    "copy-static": "cd static && cpy * '../dist'",
+    "compile": "pug src/hexxen2.pug -o dist -P",
+    "watch": "watch 'npm run build' src"
+  },
+  "dependencies": {
+    "cpy-cli": "^5.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "watch": "^1.0.2"
+  }
+}

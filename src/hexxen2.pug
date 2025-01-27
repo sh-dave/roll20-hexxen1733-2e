@@ -1,0 +1,97 @@
+-
+  var weapons = [
+    { preselect: true,  id: 'weapon_punch',    damage: 0, ap: 1, parry: -3,     baseattribute: 'attribute_athletic' },
+    { preselect: false, id: 'weapon_dagger',   damage: 1, ap: 1, parry: -2,     baseattribute: 'attribute_dexterity' },
+    { preselect: false, id: 'weapon_fencing',  damage: 2, ap: 1, parry: -1,     baseattribute: 'attribute_athletic' },
+    { preselect: false, id: 'weapon_swords' ,  damage: 4, ap: 2, parry: '',     baseattribute: 'attribute_strength' },
+    { preselect: false, id: 'weapon_impact',   damage: 5, ap: 2, parry: -2,     baseattribute: 'attribute_strength' },
+    { preselect: false, id: 'weapon_polearm',  damage: 8, ap: 3, parry: '',     baseattribute: 'attribute_strength' },
+    { preselect: false, id: 'weapon_sling' ,   damage: 1, ap: 2, parry: 'n/a',  baseattribute: 'attribute_dexterity' },
+    { preselect: false, id: 'weapon_pistol',   damage: 3, ap: 2, parry: 'n/a',  baseattribute: 'attribute_senses' },
+    { preselect: false, id: 'weapon_crossbow', damage: 5, ap: 2, parry: 'n/a',  baseattribute: 'attribute_senses' },
+    { preselect: false, id: 'weapon_musket',   damage: 9, ap: 3, parry: 'n/a',  baseattribute: 'attribute_senses' },
+    { preselect: true,  id: 'weapon_dodge',    damage: 0, ap: 1, parry: 'n/a',  baseattribute: 'attribute_athletic' },
+  ];
+
+  var skills = [
+    { id: 'skill_academical_knowledge', baseattribute: 'attribute_knowledge' },
+    { id: 'skill_acrobatics', baseattribute: 'attribute_athletic' },
+    { id: 'skill_alertness', baseattribute: 'attribute_senses' },
+    { id: 'skill_firstaid', baseattribute: 'attribute_knowledge' },
+    { id: 'skill_sleightofhand', baseattribute: 'attribute_dexterity' },
+    { id: 'skill_mentalpower', baseattribute: 'attribute_willpower' },
+    { id: 'skill_crafting', baseattribute: 'attribute_dexterity' },
+    { id: 'skill_stealth', baseattribute: 'attribute_athletic' },
+    { id: 'skill_flexing', baseattribute: 'attribute_strength' },
+    { id: 'skill_mystical_knowledge', baseattribute: 'attribute_knowledge' },
+    { id: 'skill_practical_knowledge', baseattribute: 'attribute_knowledge' },
+    { id: 'skill_investigation', baseattribute: 'attribute_senses' },
+    { id: 'skill_rhetoric', baseattribute: 'attribute_willpower' },
+    { id: 'skill_navigation', baseattribute: 'attribute_knowledge' },
+    { id: 'skill_insensibility', baseattribute: 'attribute_strength' },
+  ];
+
+mixin modoptions
+  <option value="0" selected="selected" data-i18n="mod_none">None</option>
+  <option value="mod_checks_all" data-i18n="mod_checks_all">Alle Proben</option>
+  <option value="hitpoints" data-i18n="hitpoints">Lebenspunkte</option>
+  <option value="ini" data-i18n="ini">Initiative</option>
+  <option value="mod_parry_all" data-i18n="mod_parry_all">Alle Paraden</option>
+  <option value="idea" data-i18n="idea">Ideen</option>
+  <option value="coup" data-i18n="coup">Coups</option>
+  <option value="attribute_strength" data-i18n="attribute_strength">attribute_strength</option>
+  <option value="attribute_athletic" data-i18n="attribute_athletic">attribute_athletic</option>
+  <option value="attribute_dexterity" data-i18n="attribute_dexterity">attribute_dexterity</option>
+  <option value="attribute_senses" data-i18n="attribute_senses">attribute_senses</option>
+  <option value="attribute_knowledge" data-i18n="attribute_knowledge">attribute_knowledge</option>
+  <option value="attribute_willpower" data-i18n="attribute_willpower">attribute_willpower</option>
+  <option value="skill_academical_knowledge" data-i18n="skill_academical_knowledge">skill_academical_knowledge</option>
+  <option value="skill_acrobatics" data-i18n="skill_acrobatics">skill_acrobatics</option>
+  <option value="skill_alertness" data-i18n="skill_alertness">skill_alertness</option>
+  <option value="skill_firstaid" data-i18n="skill_firstaid">skill_firstaid</option>
+  <option value="skill_sleightofhand" data-i18n="skill_sleightofhand">skill_sleightofhand</option>
+  <option value="skill_mentalpower" data-i18n="skill_mentalpower">skill_mentalpower</option>
+  <option value="skill_crafting" data-i18n="skill_crafting">skill_crafting</option>
+  <option value="skill_stealth" data-i18n="skill_stealth">skill_stealth</option>
+  <option value="skill_flexing" data-i18n="skill_flexing">skill_flexing</option>
+  <option value="skill_mystical_knowledge" data-i18n="skill_mystical_knowledge">skill_mystical_knowledge</option>
+  <option value="skill_practical_knowledge" data-i18n="skill_practical_knowledge">skill_practical_knowledge</option>
+  <option value="skill_investigation" data-i18n="skill_investigation">skill_investigation</option>
+  <option value="skill_rhetoric" data-i18n="skill_rhetoric">skill_rhetoric</option>
+  <option value="skill_navigation" data-i18n="skill_navigation">skill_navigation</option>
+  <option value="skill_insensibility" data-i18n="skill_insensibility">skill_insensibility</option>
+  <option value="weapon_punch" data-i18n="weapon_punch">weapon_punch</option>
+  <option value="weapon_dagger" data-i18n="weapon_dagger">weapon_dagger</option>
+  <option value="weapon_fencing" data-i18n="weapon_fencing">weapon_fencing</option>
+  <option value="weapon_swords" data-i18n="weapon_swords">weapon_swords</option>
+  <option value="weapon_impact" data-i18n="weapon_impact">weapon_impact</option>
+  <option value="weapon_polearm" data-i18n="weapon_polearm">weapon_polearm</option>
+  <option value="weapon_sling" data-i18n="weapon_sling">weapon_sling</option>
+  <option value="weapon_pistol" data-i18n="weapon_pistol">weapon_pistol</option>
+  <option value="weapon_crossbow" data-i18n="weapon_crossbow">weapon_crossbow</option>
+  <option value="weapon_musket" data-i18n="weapon_musket">weapon_musket</option>
+  <option value="weapon_dodge" data-i18n="weapon_dodge">weapon_dodge</option>
+
+input(type="hidden" class="tutorialtoggle" name="attr_tutorial_done" value="0")
+input(type='hidden' class='npctoggle' name='attr_npc' value='0')
+input(type="hidden" class="npc_type_toggle" name="attr_npc_type" value="npc_type_gang")
+
+div(class="charsheet")
+  input(type='hidden' class='tabstoggle' name='attr_sheetTab' value='character')
+
+  div(class="sticky")
+    div(class="2colrow")
+      include html/sticky.pug
+
+  include html/character/character.pug
+  include html/combat/combat.pug
+  include html/npc/npc.pug
+  //- include html/config.html
+
+//- SHEET WORKERS
+script(type="text/worker")
+  include js/sheetworker.js
+
+include html/rolltemplate_check.pug
+include html/rolltemplate_blood.pug
+include html/rolltemplate_elixir.pug
