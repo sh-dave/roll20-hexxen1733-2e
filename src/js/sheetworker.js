@@ -255,7 +255,7 @@ function janus_sum(values) {
   var malus = 0;
   var bonus = 0;
 
-  for (var v in values) {
+  for (var v of values) {
     if (v < 0) {
       malus += v;
     } else {
