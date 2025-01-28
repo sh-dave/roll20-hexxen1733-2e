@@ -14,8 +14,8 @@
 	border: 2px solid #333;
 	padding: 10px;
 
-	--icon_attacktype_melee: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/type_melee.png");
-	--icon_attacktype_ranged: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/type_range.png");
+	--icon_attacktype_melee: url("https://ulisses-digital.de/R20/hexxen/images/type_melee.png");
+	--icon_attacktype_ranged: url("https://ulisses-digital.de/R20/hexxen/images/type_range.png");
 }
 
 .sheet-npctoggle[value="1"]~.sheet-charsheet {
@@ -997,7 +997,7 @@ input.sheet-chip10+span::before {
 
 .sheet-npcdie {
 	background-color: black;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_hex_small.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_hex_small.png") top left;
 	background-size: 16px 16px;
 	width: 12px;
 	height: 12px;
@@ -1008,13 +1008,13 @@ input.sheet-chip10+span::before {
 
 .sheet-checkdie {
 	background-color: black;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_hex.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_hex.png") top left;
 	background-size: 24px 24px;
 }
 
 .sheet-attackdie {
 	background-color: black;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_hex.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_hex.png") top left;
 	background-size: 24px 24px;
 }
 
@@ -1027,96 +1027,96 @@ input.sheet-chip10+span::before {
 
 .sheet-blessingdie {
 	background-color: seashell;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_blessing.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_blessing.png") top left;
 	background-size: 100% 100%;
 }
 
 .sheet-blooddie {
 	background-color: maroon;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_wound.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_wound.png") top left;
 	background-size: 100% 100%;
 }
 
 .sheet-elixirdie {
 	background-color: cornflowerblue;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/btn_elixier.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/btn_elixier.png") top left;
 	background-size: 100% 100%;
 }
 
 span.sheet-ideachip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_idea.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_idea.png");
 	background-size: 100% 100%;
 }
 
 .sheet-ideachip+span::before {
 	border-radius: 50%;
 	background-color: olivedrab;
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_idea.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_idea.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px rgb(38, 56, 38);
 }
 
 span.sheet-coupchip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_coup.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_coup.png");
 	background-size: 100% 100%;
 }
 
 .sheet-coupchip+span::before {
 	border-radius: 50%;
 	background-color: maroon;
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_coup.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_coup.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px rgb(66, 1, 1);
 }
 
 span.sheet-blessingchip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_blessing.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_blessing.png");
 	background-size: 100% 100%;
 }
 
 .sheet-blessingchip+span::before {
 	border-radius: 50%;
 	background-color: seashell;
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_blessing.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_blessing.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px grey;
 }
 
 span.sheet-ragechip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_rage.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_rage.png");
 	background-size: 100% 100%;
 }
 
 .sheet-ragechip+span::before {
 	border-radius: 50%;
 	background-color: rebeccapurple;
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_rage.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_rage.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px rgb(60, 42, 78);
 }
 
 span.sheet-ambitionchip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_ambition.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_ambition.png");
 	background-size: 100% 100%;
 }
 
 .sheet-ambitionchip+span::before {
 	border-radius: 50%;
 	background-color: darkgoldenrod;
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_ambition.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_ambition.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px rgb(94, 72, 16);
 }
 
 span.sheet-quintessencechip {
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_quintessence.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_quintessence.png");
 	background-size: 100% 100%;
 }
 
 .sheet-quintessencechip+span::before {
 	border-radius: 50%;
 	background-color: rgb(114, 114, 114);
-	background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/chip_quintessence.png);
+	background-image: url("https://ulisses-digital.de/R20/hexxen/images/chip_quintessence.png");
 	background-size: 100% 100%;
 	box-shadow: 0px 5px rgb(41, 41, 41);
 }
@@ -1760,14 +1760,14 @@ span.sheet-dee {
 .sheet-rolltemplate-blood .sheet-rtcard .sheet-header,
 .sheet-rolltemplate-elixir .sheet-rtcard .sheet-header {
 	width: 124px;
-	content: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/Rabenbanner.png");
+	content: url("https://ulisses-digital.de/R20/hexxen/images/Rabenbanner.png");
 }
 
 .sheet-rolltemplate-check .sheet-rtcard .sheet-footer,
 .sheet-rolltemplate-blood .sheet-rtcard .sheet-footer,
 .sheet-rolltemplate-elixir .sheet-rtcard .sheet-footer {
 	width: 124px;
-	content: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/Rabenbanner2.png");
+	content: url("https://ulisses-digital.de/R20/hexxen/images/Rabenbanner2.png");
 	position: relative;
 	bottom: 5px;
 }
@@ -1808,44 +1808,44 @@ span.sheet-dee {
 
 .sheet-rolltemplate-check .sheet-hexxen.sheet-success {
 	counter-increment: result;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_hex_raven.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_hex_raven.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-hexxen.sheet-esprit {
 	counter-increment: esprit;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_hex_esprit.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_hex_esprit.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-hexxen.sheet-empty {
 	counter-increment: none;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_hex_empty.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_hex_empty.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-janus.sheet-success {
 	counter-increment: result;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_janus_janus.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_janus_janus.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-janus.sheet-empty {
 	counter-increment: none;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_janus_empty.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_janus_empty.png") top left;
 	background-size: 36px 36px;
 }
 
 
 .sheet-rolltemplate-check .sheet-janusmalus.sheet-success {
 	counter-increment: result -1;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_janus_janus.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_janus_janus.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-janusmalus.sheet-empty {
 	counter-increment: none;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_janus_empty.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_janus_empty.png") top left;
 	background-size: 36px 36px;
 }
 
@@ -1853,25 +1853,25 @@ span.sheet-dee {
 
 .sheet-rolltemplate-check .sheet-blessing.sheet-success {
 	counter-increment: result;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_blessing_raven.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_blessing_raven.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-blessing.sheet-doublesuccess {
 	counter-increment: result +2;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_blessing_2raven.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_blessing_2raven.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-blessing.sheet-esprit {
 	counter-increment: esprit;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_blessing_esprit.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_blessing_esprit.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-check .sheet-blessing.sheet-empty {
 	counter-increment: none;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_blessing_empty.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_blessing_empty.png") top left;
 	background-size: 36px 36px;
 }
 
@@ -1886,25 +1886,25 @@ span.sheet-dee {
 
 .sheet-rolltemplate-blood .sheet-blood.sheet-blood1 {
 	counter-increment: blood;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_wound_1.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_wound_1.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-blood .sheet-blood.sheet-blood2 {
 	counter-increment: blood 2;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_wound_2.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_wound_2.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-blood .sheet-blood.sheet-empty {
 	counter-increment: none;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_wound_empty.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_wound_empty.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-blood .sheet-blood.sheet-blood3 {
 	counter-increment: blood 3;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_wound_3.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_wound_3.png") top left;
 	background-size: 36px 36px;
 }
 
@@ -1920,31 +1920,31 @@ span.sheet-dee {
 
 .sheet-rolltemplate-elixir .sheet-elixir.sheet-elixir1 {
 	counter-increment: elixir;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_elixir_1.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_elixir_1.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-elixir .sheet-elixir.sheet-elixir2 {
 	counter-increment: elixir 2;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_elixir_2.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_elixir_2.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-elixir .sheet-elixir.sheet-elixir3 {
 	counter-increment: elixir 3;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_elixir_3.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_elixir_3.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-elixir .sheet-elixir.sheet-elixir4 {
 	counter-increment: elixir 4;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_elixir_4.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_elixir_4.png") top left;
 	background-size: 36px 36px;
 }
 
 .sheet-rolltemplate-elixir .sheet-elixir.sheet-elixir5 {
 	counter-increment: elixir 5;
-	background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Hexxen-1733-Ulisses-Spiele(Official)/images/dice_elixir_5.png) top left;
+	background: url("https://ulisses-digital.de/R20/hexxen/images/dice_elixir_5.png") top left;
 	background-size: 36px 36px;
 }
 
