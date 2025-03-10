@@ -285,7 +285,7 @@ checklist.forEach(checkaction => {
       baseattributename = skills[checkname.replace("parry_", "")].att;
       valuename = getTranslationByKey(checkname.replace("parry_", ""));
       valuename = valuename + " (" + getTranslationByKey('parry') + ") [" + getTranslationByKey(baseattributename + "_short") + "]";
-      parry_mod = parrymods[checkname];
+      // parry_mod = parrymods[checkname];
     } else {
       baseattributename = skills[checkname].att;
       valuename = getTranslationByKey(checkname);
@@ -295,11 +295,11 @@ checklist.forEach(checkaction => {
     var checkmod = checkname + "_mod";
     var checkmoddesc = checkname + "_mod_desc";
     var baseattributemod = baseattributename + "_mod";
-    console.log(valuename);
-    console.log(baseattributename);
-    console.log(checkmax);
-    console.log(checkmod);
-    console.log(checkmoddesc);
+    // console.log(valuename);
+    // console.log(baseattributename);
+    // console.log(checkmax);
+    // console.log(checkmod);
+    // console.log(checkmoddesc);
 
     getAttrs([checkmax, checkmod, checkmoddesc, baseattributemod], function (values) {
       let v = parseInt(values[checkmax], 10) || 0;
