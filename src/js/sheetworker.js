@@ -251,23 +251,6 @@ const parrymods = {
   'parry_weapon_dodge': 0,
 }
 
-function janus_sum(values) {
-  var malus = 0;
-  var bonus = 0;
-
-  for (var v of values) {
-    if (v < 0) {
-      malus += v;
-    } else {
-      bonus += v;
-    }
-  }
-
-  var malus_final = malus < -5 ? -5 : malus;
-  var bonus_final = bonus > 5 ? 5 : bonus;
-  return malus_final + bonus_final;
-}
-
 checklist.forEach(checkaction => {
   on(`clicked:${checkaction}`, function () {
     var checkname = checkaction;
@@ -285,7 +268,7 @@ checklist.forEach(checkaction => {
       baseattributename = skills[checkname.replace("parry_", "")].att;
       valuename = getTranslationByKey(checkname.replace("parry_", ""));
       valuename = valuename + " (" + getTranslationByKey('parry') + ") [" + getTranslationByKey(baseattributename + "_short") + "]";
-      // parry_mod = parrymods[checkname];
+      parry_mod = parrymods[checkname];
     } else {
       baseattributename = skills[checkname].att;
       valuename = getTranslationByKey(checkname);
@@ -294,19 +277,17 @@ checklist.forEach(checkaction => {
 
     var checkmod = checkname + "_mod";
     var checkmoddesc = checkname + "_mod_desc";
-    var baseattributemod = baseattributename + "_mod";
-    // console.log(valuename);
-    // console.log(baseattributename);
-    // console.log(checkmax);
-    // console.log(checkmod);
-    // console.log(checkmoddesc);
+    console.log(valuename);
+    console.log(baseattributename);
+    console.log(checkmax);
+    console.log(checkmod);
+    console.log(checkmoddesc);
 
-    getAttrs([checkmax, checkmod, checkmoddesc, baseattributemod], function (values) {
+    getAttrs([checkmax, checkmod, checkmoddesc], function (values) {
       let v = parseInt(values[checkmax], 10) || 0;
       var modstring = values[checkmoddesc] || "";
-      var attr = parseInt(values[baseattributemod], 10) || 0;
-      var check = parseInt(values[checkmod], 10) || 0;
-      var janus = janus_sum([check, attr, parry_mod]);
+      var janus = parseInt(values[checkmod], 10) || 0;
+      janus = Math.max(janus + parry_mod, -5);
 
       setAttrs({
         hexxen: v,
